@@ -8,4 +8,5 @@ for i in range(n):
         if a[j]>a[j+1]:
             a[j],a[j+1] = a[j+1], a[j]
 
+a = list(set(a))            
 print("the second largest element in the list is=",a[-2])
